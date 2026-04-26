@@ -178,7 +178,10 @@ class PermissionService {
     // 1. Phone permission
     final phoneStatus = await permission_handler.Permission.phone.status;
     if (!phoneStatus.isGranted) {
-      await permission_handler.Permission.phone.request();
+      final requestStatus = await permission_handler.Permission.phone.request();
+      if (requestStatus.isPermanentlyDenied) {
+        await permission_handler.openAppSettings();
+      }
       return getCallMonitoringPermissionState();
     }
 
@@ -202,7 +205,10 @@ class PermissionService {
     // 4. Contacts permission
     final contactsStatus = await permission_handler.Permission.contacts.status;
     if (!contactsStatus.isGranted) {
-      await permission_handler.Permission.contacts.request();
+      final requestStatus = await permission_handler.Permission.contacts.request();
+      if (requestStatus.isPermanentlyDenied) {
+        await permission_handler.openAppSettings();
+      }
       return getCallMonitoringPermissionState();
     }
 
