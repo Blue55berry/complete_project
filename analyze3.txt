@@ -1,0 +1,39 @@
+﻿Analyzing frontend...                                           
+
+   info - Dangling library doc comment - lib\core\models\analysis_models.dart:1:1 - dangling_library_doc_comments
+   info - Dangling library doc comment - lib\core\services\api_config.dart:1:1 - dangling_library_doc_comments
+   info - Dangling library doc comment - lib\core\services\api_service.dart:1:1 - dangling_library_doc_comments
+   info - Dangling library doc comment - lib\core\services\realtime_protection_provider.dart:1:1 - dangling_library_doc_comments
+   info - Dangling library doc comment - lib\core\services\scan_history_provider.dart:1:1 - dangling_library_doc_comments
+   info - Dangling library doc comment - lib\core\services\user_settings_provider.dart:1:1 - dangling_library_doc_comments
+   info - The import of 'dart:typed_data' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart' - lib\core\services\user_settings_provider.dart:3:8 - unnecessary_import
+   info - Dangling library doc comment - lib\core\services\whitelist_provider.dart:1:1 - dangling_library_doc_comments
+   info - Dangling library doc comment - lib\core\widgets\result_bottom_sheet.dart:1:1 - dangling_library_doc_comments
+   info - Unnecessary use of multiple underscores - lib\screens\home\home_screen.dart:77:77 - unnecessary_underscores
+   info - Statements in an if should be enclosed in a block - lib\screens\home\home_screen.dart:359:7 - curly_braces_in_flow_control_structures
+  error - The getter 'scans' isn't defined for the type 'ScanHistoryProvider' - lib\screens\image_recognition\image_recognition_screen.dart:260:36 - undefined_getter
+   info - Unnecessary use of multiple underscores - lib\screens\profile\profile_screen.dart:70:77 - unnecessary_underscores
+   info - Don't use 'BuildContext's across async gaps - lib\screens\profile\profile_screen.dart:506:27 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\profile\profile_screen.dart:509:41 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\profile\profile_screen.dart:510:48 - use_build_context_synchronously
+   info - Unnecessary use of multiple underscores - lib\screens\profile\profile_screen.dart:916:43 - unnecessary_underscores
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\screens\profile\profile_screen.dart:1037:17 - deprecated_member_use
+
+flutter : 18 issues 
+found. (ran in 7.1s)
+At line:1 char:1
++ flutter analyze 2>&1 
+| Out-File -FilePath C:
+\dev\flutter_pro\RiskGa
+ur ...
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (18 issues fou   
+ nd. (ran in 7.1s):    
+String) [], Remote    
+Exception
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 

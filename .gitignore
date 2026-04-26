@@ -1,0 +1,88 @@
+# ══════════════════════════════════════════════
+# Flutter / Dart
+# ══════════════════════════════════════════════
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/pubspec.lock
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/android/app/google-services.json
+**/ios/Pods/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/.symlinks/
+**/*.g.dart
+**/*.freezed.dart
+**/generated_plugin_registrant.dart
+
+# ══════════════════════════════════════════════
+# Python / FastAPI Backend
+# ══════════════════════════════════════════════
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/**/*.pyd
+backend/.env
+backend/.env.*
+backend/logs/
+*.log
+dashboard/__pycache__/
+dashboard/**/__pycache__/
+dashboard/**/*.pyc
+dashboard/venv/ 
+
+# ══════════════════════════════════════════════
+# IDE / Editor
+# ══════════════════════════════════════════════
+.idea/
+.vscode/
+*.iml
+.metadata
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ══════════════════════════════════════════════
+# Secrets / Keys
+# ══════════════════════════════════════════════
+*.env
+*.pem
+*.key
+google-services.json
+GoogleService-Info.plist
+
+
+
+*_result.json
+*_results.json
+*_result2.json
+*_results.txt
+*.png
+!test_image.png
+out.txt
+debug_out.txt
+audio_results.txt
+pitch_probe.txt
+result.txt
+diff.txt
+
+
+# Dashboard pycache
+dashboard/__pycache__/
+dashboard/**/__pycache__/
+dashboard/**/*.pyc
+dashboard/venv/
+
+
+project-report/
+project-review/
+backend/static/*

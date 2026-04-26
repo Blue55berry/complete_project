@@ -1,0 +1,1513 @@
+﻿
+================================================================================
+ANALYZING: Zenthor Final Review
+================================================================================
+Slide width: 9144000, height: 6858000
+Total slides: 36
+
+--- SLIDE 1 ---
+  Layout: Title Slide
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=744921, top=1446806, w=7772400, h=1470025
+    Text: 'ZENTHOR'
+      Run: 'ZENTHOR' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Subtitle 2'
+    Pos: left=863162, top=2714613, w=7535918, h=1226557
+    Text: 'An Intelligent Career Guidance System
+Using Artificial Intelligence'
+      Run: 'An Intelligent Career Guidance System' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Using Artificial Intelligence' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 2: type=AUTO_SHAPE (1), name='Rectangle 12'
+    Pos: left=118242, top=93507, w=9025758, h=1200329
+    Text: 'Erode Sengunthar Engineering College
+(An Autonomous Institution)
+Perundurai, Erode - 638057'
+      Run: 'Erode Sengunthar Engineering College' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: '(An Autonomous Institution)' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: 'Perundurai, Erode - 638057' | font=Times New Roman size=20.0pt bold=None italic=None color=None align=CENTER (2)
+
+  Shape 3: type=PICTURE (13), name='Picture 13'
+    Pos: left=291662, top=93507, w=1253359, h=1099136
+    [IMAGE] image/jpeg
+
+  Shape 4: type=PICTURE (13), name='Picture 14'
+    Pos: left=7496996, top=50991, w=1512996, h=1470025
+    [IMAGE] image/jpeg
+
+  Shape 5: type=TEXT_BOX (17), name='Subtitle 2'
+    Pos: left=5038344, top=4462273, w=3657600, h=1920240
+    Text: 'PRESENTED BY
+Abhimanyu.C           ES22IT01
+Kiruthik.M               ES22IT47
+MD Saif Ansari        ES22IT63
+Gunasekaran M S     ES22IT305'
+      Run: 'PRESENTED BY' | font=Times New Roman size=18.0pt bold=True italic=None color=type=SCHEME (2) align=LEFT (1)
+      Run: 'Abhimanyu.C' | font=Times New Roman size=20.0pt bold=None italic=None color=type=SCHEME (2) align=LEFT (1)
+      Run: '           ES22IT01' | font=Times New Roman size=20.0pt bold=None italic=None color=type=SCHEME (2) align=LEFT (1)
+      Run: 'Kiruthik.M' | font=Times New Roman size=20.0pt bold=None italic=None color=type=SCHEME (2) align=LEFT (1)
+      Run: '               ES22IT47' | font=Times New Roman size=20.0pt bold=None italic=None color=type=SCHEME (2) align=LEFT (1)
+      Run: 'MD Saif Ansari        ES22IT63' | font=Times New Roman size=20.0pt bold=None italic=None color=type=SCHEME (2) align=LEFT (1)
+      Run: 'Gunasekaran M S     ES22IT305' | font=Times New Roman size=20.0pt bold=None italic=None color=type=SCHEME (2) align=LEFT (1)
+
+  Shape 6: type=TEXT_BOX (17), name='TextBox 16'
+    Pos: left=291662, top=4462273, w=4390066, h=1292662
+    Text: 'UNDER THE GUIDANCE OF
+Mr. D. Vijaybabu, 
+Assistant Professor,
+Department of Information Technology'
+      Run: 'UNDER THE GUIDANCE OF' | font=Times New Roman size=Nonept bold=True italic=None color=None align=LEFT (1)
+      Run: 'Mr. D. ' | font=Times New Roman size=20.0pt bold=None italic=None color=None align=LEFT (1)
+      Run: 'Vijaybabu' | font=Times New Roman size=20.0pt bold=None italic=None color=None align=LEFT (1)
+      Run: ', ' | font=Times New Roman size=20.0pt bold=None italic=None color=None align=LEFT (1)
+      Run: 'Assistant Professor,' | font=Times New Roman size=20.0pt bold=None italic=None color=type=SCHEME (2) align=LEFT (1)
+      Run: 'Department of Information Technology' | font=Times New Roman size=20.0pt bold=None italic=None color=None align=LEFT (1)
+
+--- SLIDE 2 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Introduction'
+      Run: 'Introduction' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Choosing a career is one of the most important and life-defining decisions.
+Rapid growth in career options creates confusion among students.
+Traditional counseling lacks personalization and scalability.
+Students lack awareness of skills and job trends.
+AI enables data-driven and intelligent career g'
+      Run: 'Choosing a career is one of the most important and life-defining decisions.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Rapid growth in career options creates confusion among students.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Traditional counseling lacks personalization and scalability.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Students lack awareness of skills and job trends.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'AI enables data-driven and intelligent career guidance.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Zenthor helps users make informed career decisions.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 3 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'About Zenthor'
+      Run: 'About Zenthor' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'AI-powered career guidance system.
+Analyzes skills, interests, and academic data.
+Provides personalized career recommendations.
+Acts as a 24/7 virtual mentor.
+Suggests learning paths, courses, and projects.
+Bridges gap between skills and industry.'
+      Run: 'AI-powered career guidance system.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Analyzes skills, interests, and academic data.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Provides personalized career recommendations.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Acts as a 24/7 virtual mentor.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Suggests learning paths, courses, and projects.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Bridges gap between skills and industry.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 4 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Need for the System'
+      Run: 'Need for the System' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Increase in career options causes confusion.
+Lack of awareness in students.
+Skill gap between education and industry.
+Rapid changes in job market trends.
+Traditional systems not scalable.
+Need for intelligent guidance system.'
+      Run: 'Increase in career options causes confusion.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Lack of awareness in students.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Skill gap between education and industry.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Rapid changes in job market trends.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Traditional systems not scalable.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Need for intelligent guidance system.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 5 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Problem Statement'
+      Run: 'Problem Statement' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Students struggle to choose correct career path.
+Existing systems are generic and outdated.
+No real-time job market analysis.
+Lack of personalization.
+No continuous tracking system.
+Leads to wrong career decisions.'
+      Run: 'Students struggle to choose correct career path.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Existing systems are generic and outdated.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'No real-time job market analysis.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Lack of personalization.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'No continuous tracking system.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Leads to wrong career decisions.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 6 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Objectives'
+      Run: 'Objectives' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Develop AI-based career system.
+Analyze user data for insights.
+Provide accurate recommendations.
+Identify skill gaps.
+Support continuous learning.
+Improve employability.'
+      Run: 'Develop AI-based career system.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Analyze user data for insights.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Provide accurate recommendations.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Identify skill gaps.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Support continuous learning.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Improve employability.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 7 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Limitations of Existing System'
+      Run: 'Limitations of Existing System' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'The system does not provide personalized recommendations.
+It is time-consuming and depends on manual counseling.
+No real-time updates about job market trends.
+Relies on human judgment, which may be biased.
+No proper skill gap analysis for users.
+Does not support continuous career tracking.
+Not scala'
+      Run: 'The system does not provide personalized recommendations.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'It is time-consuming and depends on manual counseling.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'No real-time updates about job market trends.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Relies on human judgment, which may be biased.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'No proper skill gap analysis for users.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Does not support continuous career tracking.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Not scalable for large number of users.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Limited accessibility for remote users.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 8 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Proposed System'
+      Run: 'Proposed System' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Zenthor is an AI-powered career guidance system.
+Analyzes skills, interests, and academic background.
+Uses Artificial Intelligence and Machine Learning.
+Provides real-time career recommendations.
+Includes skill gap analysis and learning paths.
+Supports continuous monitoring and updates.
+Highly scala'
+      Run: 'Zenthor' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: ' is an AI-powered career guidance system.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Analyzes skills, interests, and academic background.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Uses Artificial Intelligence and Machine Learning.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Provides real-time career recommendations.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Includes skill gap analysis and learning paths.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Supports continuous monitoring and updates.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Highly scalable and efficient.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Accessible anytime as a virtual mentor.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 9 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Advantages of Proposed System'
+      Run: 'Advantages of Proposed System' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Provides personalized career suggestions.
+Fast and accurate results using AI.
+Real-time updates based on industry trends.
+Improves decision-making with data insights.
+Identifies and improves skill gaps.
+Supports continuous learning and growth.
+Accessible anytime and anywhere.
+Reduces cost and depend'
+      Run: 'Provides personalized career suggestions.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Fast and accurate results using AI.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Real-time updates based on industry trends.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Improves decision-making with data insights.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Identifies and improves skill gaps.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Supports continuous learning and growth.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Accessible anytime and anywhere.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Reduces cost and dependency on counselors.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 10 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'System Architecture - Overview'
+      Run: 'System Architecture - Overview' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Designed for efficient data flow.
+Consists of UI, Backend, Database, AI Engine.
+Ensures smooth interaction between components.
+Supports real-time processing.
+Handles multiple users efficiently.
+'
+      Run: 'Designed for efficient data flow.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Consists of UI, Backend, Database, AI Engine.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Ensures smooth interaction between components.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Supports real-time processing.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Handles multiple users efficiently.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 11 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'System Architecture - Backend & DB'
+      Run: 'System Architecture - Backend & DB' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Backend handles processing and API communication.
+Manages user requests and system logic.
+Database stores user data securely.
+Efficient data retrieval and storage.
+Supports future analysis and scalability.
+'
+      Run: 'Backend handles processing and API communication.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Manages user requests and system logic.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Database stores user data securely.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Efficient data retrieval and storage.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Supports future analysis and scalability.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 12 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'System Architecture - AI Engine'
+      Run: 'System Architecture - AI Engine' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Core component of the system.
+Uses machine learning algorithms.
+Performs prediction and recommendation.
+Analyzes user data effectively.
+Improves with feedback and new data.
+Ensures accuracy and performance.
+'
+      Run: 'Core component of the system.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Uses machine learning algorithms.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Performs prediction and recommendation.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Analyzes user data effectively.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Improves with feedback and new data.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Ensures accuracy and performance.' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 13 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Data Collection'
+      Run: 'Data Collection' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Collects user profile including education and background
+Captures skills, interests, and preferences
+Includes academic performance and certifications
+Tracks career goals and ambitions
+Collects project and experience details
+Uses forms and questionnaires
+Ensures accuracy and completeness
+Continuously'
+      Run: 'Collects user profile including education and background' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Captures skills, interests, and preferences' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Includes academic performance and certifications' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Tracks career goals and ambitions' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Collects project and experience details' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Uses forms and questionnaires' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Ensures accuracy and completeness' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Continuously updates user data' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Maintains data privacy and security' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 14 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Data Processing'
+      Run: 'Data Processing' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Performs data cleaning to remove errors
+Handles missing and incomplete data
+Converts raw data into structured format
+Applies normalization techniques
+Extracts important features
+Encodes data for machine learning
+Improves data quality
+Prepares dataset for ML models
+Ensures efficient processing
+'
+      Run: 'Performs data cleaning to remove errors' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Handles missing and incomplete data' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Converts raw data into structured format' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Applies normalization techniques' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Extracts important features' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Encodes data for machine learning' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Improves data quality' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Prepares dataset for ML models' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Ensures efficient processing' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 15 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Machine Learning Model'
+      Run: 'Machine Learning Model' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Uses classification algorithms for prediction
+Implements recommendation systems
+Trained on career datasets
+Analyzes patterns in user data
+Provides intelligent outputs
+Improves accuracy with feedback
+Supports supervised learning
+Handles multiple career options
+Optimizes performance continuously
+'
+      Run: 'Uses classification algorithms for prediction' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Implements recommendation systems' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Trained on career datasets' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Analyzes' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: ' patterns in user data' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Provides intelligent outputs' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Improves accuracy with feedback' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Supports supervised learning' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Handles multiple career options' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Optimizes performance continuously' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 16 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Recommendation Engine'
+      Run: 'Recommendation Engine' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Suggests suitable career paths
+Recommends required skills
+Provides course suggestions
+Generates personalized roadmap
+Adapts based on user profile
+Uses hybrid recommendation methods
+Updates recommendations regularly
+Provides multiple options
+Enhances decision-making
+'
+      Run: 'Suggests suitable career paths' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Recommends required skills' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Provides course suggestions' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Generates personalized roadmap' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Adapts based on user profile' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Uses hybrid recommendation methods' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Updates recommendations regularly' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Provides multiple options' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Enhances decision-making' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 17 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Skill Gap Analysis'
+      Run: 'Skill Gap Analysis' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Compares user skills with job requirements
+Identifies missing skills
+Suggests improvements
+Provides learning resources
+Tracks user progress
+Highlights strengths and weaknesses
+Recommends certifications
+Improves employability
+Supports career readiness
+'
+      Run: 'Compares user skills with job requirements' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Identifies missing skills' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Suggests improvements' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Provides learning resources' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Tracks user progress' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Highlights strengths and weaknesses' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Recommends certifications' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Improves employability' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Supports career readiness' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 18 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Career Prediction'
+      Run: 'Career Prediction' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Predicts best career path using AI
+Based on user data and trends
+Considers job market demand
+Provides multiple career options
+Uses historical data analysis
+Improves prediction accuracy
+Adapts to changes
+Ensures reliability
+Supports decision-making
+'
+      Run: 'Predicts best career path using AI' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Based on user data and trends' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Considers job market demand' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Provides multiple career options' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Uses historical data analysis' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Improves prediction accuracy' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Adapts to changes' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Ensures reliability' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Supports decision-making' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 19 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Technologies Used'
+      Run: 'Technologies Used' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'HTML, CSS, JavaScript for frontend
+React.js for UI
+Node.js for backend services
+NeonDB for database
+Gemini APIs for integration
+Visualization tools
+'
+      Run: 'HTML, CSS, JavaScript for frontend' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'React.js for UI' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Node.js for backend services' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'NeonDB' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: ' for database' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Gemini APIs for integration' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Visualization tools' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 20 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'User Interface'
+      Run: 'User Interface' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Simple and intuitive design
+Easy navigation
+Interactive dashboard
+Displays results clearly
+Responsive for all devices
+User-friendly forms
+Attractive layout
+Real-time interaction
+Improves user experience
+'
+      Run: 'Simple and intuitive design' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Easy navigation' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Interactive dashboard' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Displays results clearly' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Responsive for all devices' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'User-friendly forms' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Attractive layout' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Real-time interaction' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Improves user experience' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 21 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Key Features'
+      Run: 'Key Features' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Personalized career guidance
+Skill tracking system
+AI-based recommendations
+Continuous monitoring
+Learning path suggestions
+Real-time updates
+User-friendly interface
+Data-driven insights
+Career roadmap generation
+'
+      Run: 'Personalized career guidance' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Skill tracking system' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'AI-based recommendations' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Continuous monitoring' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Learning path suggestions' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Real-time updates' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'User-friendly interface' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Data-driven insights' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Career roadmap generation' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 22 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Additional Features'
+      Run: 'Additional Features' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Resume building suggestions
+Certification recommendations
+Job alerts
+Progress tracking dashboard
+Feedback system
+Integration with learning platforms
+Custom reports
+Goal setting
+Performance analytics
+'
+      Run: 'Resume building suggestions' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Certification recommendations' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Job alerts' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Progress tracking dashboard' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Feedback system' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Integration with learning platforms' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Custom reports' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Goal setting' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Performance analytics' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 23 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Security Features'
+      Run: 'Security Features' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Secure login authentication
+Data encryption
+User privacy protection
+Safe data storage
+Access control
+Prevents unauthorized access
+Ensures data integrity
+Regular updates
+Backup and recovery
+'
+      Run: 'Secure login authentication' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Data encryption' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'User privacy protection' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Safe data storage' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Access control' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Prevents unauthorized access' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Ensures data integrity' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Regular updates' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Backup and recovery' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 24 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Performance Analysis'
+      Run: 'Performance Analysis' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Measures prediction accuracy
+Evaluates response time
+Tracks user engagement
+Analyzes efficiency
+Uses feedback for improvement
+Ensures reliability
+Handles large users
+Optimizes performance
+Maintains consistency
+'
+      Run: 'Measures prediction accuracy' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Evaluates response time' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Tracks user engagement' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Analyzes' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: ' efficiency' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Uses feedback for improvement' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Ensures reliability' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Handles large users' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Optimizes performance' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Maintains consistency' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 25 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Applications'
+      Run: 'Applications' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Used in colleges
+Career counseling centers
+Online platforms
+Job seekers
+Recruitment systems
+Training institutes
+Supports professionals
+Improves employability
+Guides career planning
+'
+      Run: 'Used in colleges' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Career counseling centers' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Online platforms' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Job seekers' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Recruitment systems' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Training institutes' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Supports professionals' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Improves employability' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Guides career planning' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 26 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Content Placeholder 4'
+    Pos: left=457200, top=1741488, w=8229600, h=4243387
+
+  Shape 1: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Hero Page'
+      Run: 'Hero Page' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 27 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Content Placeholder 4'
+    Pos: left=457200, top=1713198, w=8229600, h=4299966
+
+  Shape 1: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Industry Insights'
+      Run: 'I' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'ndustry' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: ' Insights' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 28 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Content Placeholder 4'
+    Pos: left=457200, top=1715770, w=8229600, h=4294822
+
+  Shape 1: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Resume Builder'
+      Run: 'R' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'esume' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: ' Builder' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 29 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Content Placeholder 4'
+    Pos: left=457200, top=1657232, w=8229600, h=4274248
+
+  Shape 1: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Create Cover Letter'
+      Run: 'C' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'reate' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: ' Cover Letter' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 30 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Content Placeholder 4'
+    Pos: left=457200, top=1726057, w=8229600, h=4274248
+
+  Shape 1: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Interview Preparation'
+      Run: 'Interview Preparation' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 31 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Future Enhancements'
+      Run: 'Future Enhancements' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Mobile app development
+AI chatbot integration
+Voice assistant
+Advanced ML models
+Better UI/UX
+Job portal integration
+Real-time analytics
+Cloud deployment
+Global reach
+'
+      Run: 'Mobile app development' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'AI chatbot integration' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Voice assistant' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Advanced ML models' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Better UI/UX' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Job portal integration' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Real-time analytics' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Cloud deployment' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Global reach' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 32 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=457200, top=274638, w=8229600, h=1143000
+    Text: 'Conclusion'
+      Run: 'Conclusion' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='Content Placeholder 2'
+    Pos: left=457200, top=1600200, w=8229600, h=4525963
+    Text: 'Zenthor simplifies career decisions
+Provides intelligent recommendations
+Uses AI for accuracy
+Enhances user experience
+Supports long-term growth
+Bridges skill gap
+Improves employability
+Personalized guidance
+Future-ready system
+'
+      Run: 'Zenthor' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: ' simplifies career decisions' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Provides intelligent recommendations' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Uses AI for accuracy' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Enhances user experience' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Supports long-term growth' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Bridges skill gap' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Improves employability' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Personalized guidance' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+      Run: 'Future-ready system' | font=Times New Roman size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 33 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Content Placeholder 3'
+    Pos: left=1063573, top=978408, w=7258174, h=5166360
+
+--- SLIDE 34 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Content Placeholder 3'
+    Pos: left=1016753, top=905256, w=7110493, h=5047488
+
+--- SLIDE 35 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Content Placeholder 3'
+    Pos: left=849833, top=896112, w=7444333, h=5262002
+
+--- SLIDE 36 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Content Placeholder 3'
+    Pos: left=794528, top=942738, w=7014447, h=4972524
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+================================================================================
+ANALYZING: RiskGuard Review 1
+================================================================================
+Slide width: 9144000, height: 6858000
+Total slides: 12
+
+--- SLIDE 1 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='object 2'
+    Pos: left=2917317, top=2600401, w=3427729, h=697230
+    Text: 'RISK GUARD'
+      Run: 'RISK' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'GUARD' | font=None size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=TEXT_BOX (17), name='object 3'
+    Pos: left=1634744, top=3456508, w=5990590, h=514350
+    Text: 'AI Deepfake Risk Analysis Platform'
+      Run: 'AI' | font=Times New Roman size=32.0pt bold=None italic=None color=888888 align=None
+      Run: ' ' | font=Times New Roman size=32.0pt bold=None italic=None color=888888 align=None
+      Run: 'Deepfake' | font=Times New Roman size=32.0pt bold=None italic=None color=888888 align=None
+      Run: ' ' | font=Times New Roman size=32.0pt bold=None italic=None color=888888 align=None
+      Run: 'Risk' | font=Times New Roman size=32.0pt bold=None italic=None color=888888 align=None
+      Run: ' ' | font=Times New Roman size=32.0pt bold=None italic=None color=888888 align=None
+      Run: 'Analysis' | font=Times New Roman size=32.0pt bold=None italic=None color=888888 align=None
+      Run: ' ' | font=Times New Roman size=32.0pt bold=None italic=None color=888888 align=None
+      Run: 'Platform' | font=Times New Roman size=32.0pt bold=None italic=None color=888888 align=None
+
+  Shape 2: type=GROUP (6), name='object 4'
+    Pos: left=1842487, top=226062, w=5586730, h=1431290
+
+  Shape 3: type=TEXT_BOX (17), name='object 10'
+    Pos: left=1829816, top=114427, w=5599430, h=1305560
+    Text: 'Erode Sengunthar Engineering College (An Autonomous Institution) Perundurai, Erode - 638057'
+      Run: 'Erode' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: ' ' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: 'Sengunthar' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: ' ' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: 'Engineering' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: ' ' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: 'College (An' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: ' ' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: 'Autonomous' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: ' ' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: 'Institution) ' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: 'Perundurai,' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: ' ' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: 'Erode' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: ' ' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: '-' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: ' ' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+      Run: '638057' | font=Times New Roman size=28.0pt bold=None italic=None color=None align=CENTER (2)
+
+  Shape 4: type=PICTURE (13), name='object 11'
+    Pos: left=291668, top=93522, w=1253363, h=1099134
+    [IMAGE] image/jpeg
+
+  Shape 5: type=PICTURE (13), name='object 12'
+    Pos: left=7496936, top=253590, w=1512951, h=1058417
+    [IMAGE] image/jpeg
+
+  Shape 6: type=TEXT_BOX (17), name='object 13'
+    Pos: left=5300853, top=5027752, w=1896745, h=300355
+    Text: 'PRESENTED BY :'
+      Run: 'PRESENTED' | font=Times New Roman size=18.0pt bold=True italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=18.0pt bold=True italic=None color=None align=None
+      Run: 'BY' | font=Times New Roman size=18.0pt bold=True italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=18.0pt bold=True italic=None color=None align=None
+      Run: ':' | font=Times New Roman size=18.0pt bold=True italic=None color=None align=None
+
+  Shape 7: type=TABLE (19), name='object 14'
+    Pos: left=750366, top=5340349, w=7689850, h=803910
+
+  Shape 8: type=TEXT_BOX (17), name='object 15'
+    Pos: left=769416, top=5031740, w=3049905, h=299720
+    Text: 'UNDER THE GUIDANCE OF'
+      Run: 'UNDER' | font=Times New Roman size=18.0pt bold=True italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=18.0pt bold=True italic=None color=None align=None
+      Run: 'THE' | font=Times New Roman size=18.0pt bold=True italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=18.0pt bold=True italic=None color=None align=None
+      Run: 'GUIDANCE' | font=Times New Roman size=18.0pt bold=True italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=18.0pt bold=True italic=None color=None align=None
+      Run: 'OF' | font=Times New Roman size=18.0pt bold=True italic=None color=None align=None
+
+--- SLIDE 2 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='object 2'
+    Pos: left=1560702, top=478663, w=6022594, h=696594
+    Text: 'INTRODUCTION'
+      Run: 'INTRODUCTION' | font=None size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=TEXT_BOX (17), name='object 3'
+    Pos: left=535940, top=1556465, w=7833359, h=4343400
+    Text: 'Rapid growth of Generative AI enables realistic synthetic
+media like AI voice, images, videos, and text.
+
+This increases risks such as deepfake scams, misinformation,
+and identity impersonation.
+
+Existing tools lack unified real-time detection, creating the
+need for systems like RiskGuard.'
+      Run: 'Rapid growth' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'of' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'Generative' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'AI' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'enables' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'realistic' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'synthetic' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'media' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'like' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'AI' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'voice,' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'images,' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'videos,' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'and' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' text.' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'This' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'increases' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'risks' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'such' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'as' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'deepfake' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'scams,' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'misinformation,' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'and' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'identity' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'impersonation.' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'Existing' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'tools' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'lack' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'unified ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'real-' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'time' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'detection,' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'creating' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'the' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'need' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'for' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'systems like' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'RiskGuard.' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+
+--- SLIDE 3 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='object 2'
+    Pos: left=1560702, top=478663, w=6022594, h=696594
+    Text: 'ABSTRACT'
+      Run: 'ABSTRACT' | font=None size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=TEXT_BOX (17), name='object 3'
+    Pos: left=455168, top=1574753, w=7839709, h=4526280
+    Text: 'RiskGuard is a unified AI risk analysis platform for detecting
+AI-generated audio, video, image, and text.
+
+Uses hybrid edge-cloud architecture for fast and accurate detection.
+
+Focuses on privacy-first processing and real-time protection against AI-based threats.'
+      Run: 'RiskGuard' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'is' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'a' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'unified' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'AI' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'risk' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'analysis' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'platform' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'for' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'detecting' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'AI-' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'generated' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'audio,' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'video,' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'image,' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'and' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'text.' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'Uses' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'hybrid' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'edge-cloud' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'architecture' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'for' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'fast' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'and' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'accurate detection.' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'Focuses' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'on' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'privacy-first' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'processing' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'and' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'real-time' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'protection ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'against' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'AI-' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'based' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'threats.' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+
+--- SLIDE 4 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='object 2'
+    Pos: left=1560702, top=478663, w=6022594, h=696594
+    Text: 'EXISTING SYSTEM'
+      Run: 'EXISTING' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'SYSTEM' | font=None size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=TEXT_BOX (17), name='object 3'
+    Pos: left=535940, top=1528063, w=7677150, h=4707890
+    Text: 'Single-modality detection tools (only audio, image, or text separately).
+
+Mostly cloud-based AI detection requiring data upload.
+
+Manual verification without real-time automated analysis.
+
+Limited deepfake detection in basic spam/phishing filters.
+No unified multi-modal platform with privacy-focused'
+      Run: 'Single-modality' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'detection' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'tools' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: '(only' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'audio,' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'image,' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'or' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'text ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'separately).' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'Mostly' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'cloud-' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'based' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'AI detection' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'requiring' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'data ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'upload.' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'Manual' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'verification' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'without' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'real-' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'time' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'automated' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'analysis.' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'Limited' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'deepfake detection' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'in' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'basic' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'spam/phishing' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'filters.' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'No' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'unified' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'multi-' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'modal' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'platform' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'with' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'privacy-' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'focused' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'real- ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'time' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'processing.' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+
+--- SLIDE 5 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='object 2'
+    Pos: left=1560702, top=478663, w=6022594, h=696594
+    Text: 'PROBLEM STATEMENT'
+      Run: 'PROBLEM' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'STATEMENT' | font=None size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=TEXT_BOX (17), name='object 3'
+    Pos: left=298500, top=2076450, w=8061325, h=3317875
+    Text: 'AI voice cloning scams and impersonation attacks.
+
+Deepfake videos spreading misinformation.
+
+AI-generated phishing messages and social engineering.
+
+Lack of unified tools capable of detecting multiple media types.
+
+Privacy risks due to cloud-only detection systems.'
+      Run: 'AI' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'voice' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'cloning' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'scams' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'and' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'impersonation' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'attacks.' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'Deepfake' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'videos' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'spreading' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'misinformation.' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'AI-' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'generated' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'phishing' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'messages' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'and' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'social' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'engineering.' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'Lack' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'of' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'unified' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'tools' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'capable' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'of' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'detecting' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'multiple' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'media' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' types.' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'Privacy' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'risks' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'due' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'to' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'cloud-only' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'detection' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: 'systems' | font=Times New Roman size=24.0pt bold=None italic=None color=None align=None
+      Run: '.' | font=Times New Roman size=18.0pt bold=None italic=None color=None align=None
+
+--- SLIDE 6 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='object 2'
+    Pos: left=1560702, top=478663, w=6022594, h=696594
+    Text: 'PROPOSED SOLUTION'
+      Run: 'PROPOSED' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'SOLUTION' | font=None size=Nonept bold=None italic=None color=None align=None
+
+  Shape 1: type=PLACEHOLDER (14), name='object 3'
+    Pos: left=338124, top=1770634, w=8030845, h=4050029
+    Text: 'Real-time detection across audio, image, video, and text.
+
+Hybrid edge-cloud processing for speed and accuracy.
+
+Local lightweight models for instant screening.
+
+Cloud-based deep analysis when uncertainty exists.
+
+Accessibility-based proactive monitoring for daily applications.
+
+Risk scoring system '
+      Run: 'Real-' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'time' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'detection' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'across' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'audio,' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'image, video,' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'and' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' text.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Hybrid' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' edge-' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'cloud' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'processing' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'for speed' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'and' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'accuracy.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Local' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'lightweight' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'models' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'for' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'instant' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'screening.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Cloud-' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'based' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'deep analysis' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'when' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'uncertainty' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'exists.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Accessibility-' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'based' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'proactive' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'monitoring' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'for' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'daily' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'applications.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Risk' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'scoring' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'system' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'instead' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'of simple' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'binary' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'classification.' | font=None size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 7 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=338124, top=228599, w=8030844, h=677108
+    Text: 'SYSTEM ARCHITECTURE'
+      Run: 'SYSTEM ARCHITECTURE' | font=Times New Roman size=Nonept bold=None italic=None color=None align=CENTER (2)
+
+  Shape 1: type=PLACEHOLDER (14), name='Text Placeholder 2'
+    Pos: left=338124, top=1770634, w=8030845, h=4801314
+    Text: 'Flutter mobile application for user interaction.
+FastAPI backend for processing requests.
+AI detection engine for media analysis.
+IPFS for decentralized evidence storage.
+Polygon blockchain for tamper-proof records.
+Investigator dashboard for monitoring threats.
+'
+      Run: 'Flutter mobile application for user interaction.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'FastAPI' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: ' backend for processing requests.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'AI detection engine for media analysis.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'IPFS for decentralized evidence storage.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Polygon blockchain for tamper-proof records.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Investigator dashboard for monitoring threats.' | font=None size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 8 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=338124, top=190881, w=8272476, h=677108
+    Text: 'ARCHITECTURE DIAGRAM'
+      Run: 'ARCHITECTURE DIAGRAM' | font=None size=Nonept bold=None italic=None color=None align=CENTER (2)
+
+  Shape 1: type=PLACEHOLDER (14), name='Text Placeholder 2'
+    Pos: left=338124, top=1770634, w=8030845, h=4050029
+
+  Shape 2: type=PICTURE (13), name='Picture 5'
+    Pos: left=283361, top=1295400, w=8577276, h=4682321
+    [IMAGE] image/png
+
+--- SLIDE 9 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=338124, top=152400, w=8272476, h=677108
+    Text: 'AI DETECTION MODULES'
+      Run: 'AI DETECTION MODULES' | font=None size=Nonept bold=None italic=None color=None align=CENTER (2)
+
+  Shape 1: type=PLACEHOLDER (14), name='Text Placeholder 2'
+    Pos: left=338124, top=1770634, w=8030845, h=3323987
+    Text: 'Image Detection – Noise pattern & frequency analysis.
+Voice Detection – LFCC and pitch pattern analysis.
+Text Detection – Transformer-based AI detection.
+Video Detection – Frame analysis + temporal consistency.
+'
+      Run: 'Image Detection' | font=None size=Nonept bold=True italic=None color=None align=None
+      Run: ' – Noise pattern & frequency analysis.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Voice Detection' | font=None size=Nonept bold=True italic=None color=None align=None
+      Run: ' – LFCC and pitch pattern analysis.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Text Detection' | font=None size=Nonept bold=True italic=None color=None align=None
+      Run: ' – Transformer-based AI detection.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Video Detection' | font=None size=Nonept bold=True italic=None color=None align=None
+      Run: ' – Frame analysis + temporal consistency.' | font=None size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 10 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=228600, top=152400, w=8305800, h=1354217
+    Text: 'BLOCKCHAIN EVIDENCE SYSTEM'
+      Run: 'BLOCKCHAIN EVIDENCE SYSTEM' | font=None size=Nonept bold=None italic=None color=None align=CENTER (2)
+
+  Shape 1: type=PLACEHOLDER (14), name='Text Placeholder 2'
+    Pos: left=338124, top=1770634, w=8030845, h=4319452
+    Text: 'File hashed using SHA-256.
+Evidence stored in IPFS.
+Metadata saved in local database.
+Evidence grouped using Merkle Tree.
+Root hash anchored on Polygon Blockchain.
+'
+      Run: 'File hashed using ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'SHA-256.' | font=None size=Nonept bold=True italic=None color=None align=None
+      Run: 'Evidence stored in ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'IPFS.' | font=None size=Nonept bold=True italic=None color=None align=None
+      Run: 'Metadata saved in local database.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Evidence grouped using ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Merkle Tree.' | font=None size=Nonept bold=True italic=None color=None align=None
+      Run: 'Root hash anchored on ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Polygon Blockchain.' | font=None size=Nonept bold=True italic=None color=None align=None
+
+--- SLIDE 11 ---
+  Layout: Title and Content
+
+  Shape 0: type=PLACEHOLDER (14), name='Title 1'
+    Pos: left=1560702, top=478663, w=6022594, h=696594
+    Text: 'KEY FEATURES'
+      Run: 'KEY FEATURES' | font=None size=Nonept bold=None italic=None color=None align=CENTER (2)
+
+  Shape 1: type=PLACEHOLDER (14), name='Text Placeholder 2'
+    Pos: left=338124, top=1770634, w=8030845, h=4801314
+    Text: 'Multi-modal AI content detection.
+Real-time deepfake risk analysis.
+Hybrid edge + cloud architecture.
+Blockchain-based evidence verification.
+Privacy-first local preprocessing.
+Lightweight system for standard hardware.
+'
+      Run: 'Multi-modal AI content detection.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Real-time deepfake risk analysis.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Hybrid ' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'edge + cloud architecture.' | font=None size=Nonept bold=True italic=None color=None align=None
+      Run: 'Blockchain-based evidence verification.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Privacy-first local preprocessing.' | font=None size=Nonept bold=None italic=None color=None align=None
+      Run: 'Lightweight system for standard hardware.' | font=None size=Nonept bold=None italic=None color=None align=None
+
+--- SLIDE 12 ---
+  Layout: Title Only
+
+  Shape 0: type=PLACEHOLDER (14), name='object 2'
+    Pos: left=2221738, top=2928569, w=4510405, h=940435
+    Text: 'THANK YOU'
+      Run: 'THANK' | font=None size=60.0pt bold=None italic=None color=None align=None
+      Run: ' ' | font=None size=60.0pt bold=None italic=None color=None align=None
+      Run: 'YOU' | font=None size=60.0pt bold=None italic=None color=None align=None

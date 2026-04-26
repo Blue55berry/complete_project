@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk Guard — Secure Access</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="login-page">
+    <div class="login-container">
+        <div class="login-card">
+            <div class="login-badge">
+                <i data-lucide="shield-check" class="text-white w-10 h-10"></i>
+            </div>
+            <h1 class="login-title">Risk Guard Ledger</h1>
+
+
+            {% if error %}
+            <div id="errorBox" class="alert alert-error"
+                style="background: var(--danger-bg); border: 1px solid var(--danger-border); color: var(--danger); padding: 12px; border-radius: 10px; margin-bottom: 20px; font-size: 0.85rem; text-align: left;">
+                <p id="errorMsg">{{ error }}</p>
+            </div>
+            {% endif %}
+
+            <form id="loginForm" class="login-form" method="POST" action="/login">
+                <div class="form-group">
+                    <label for="username">Officer ID</label>
+                    <input type="text" id="username" name="username" autocomplete="username"
+                        placeholder="Officer ID Code" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Access Code</label>
+                    <input type="password" id="password" name="password" autocomplete="current-password"
+                        placeholder="••••••••" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full"
+                    style="display: flex; justify-content: center; gap: 10px;">
+                    Login
+                </button>
+            </form>
+
+        </div>
+    </div>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk Guard Ledger</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+        .visual-preview-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow-sm); margin-bottom: 24px; text-align: center; }
+        .forensic-image-container { position: relative; display: flex; align-items: center; justify-content: center; width: 100%; height: 500px; border-radius: var(--radius-sm); overflow: hidden; border: 1px solid var(--border); background: #0d1117; }
+        .forensic-image { display: block; max-width: 100%; max-height: 100%; object-fit: contain; opacity: 0; transition: opacity 0.5s ease; }
+        .forensic-image.loaded { opacity: 1; }
+        .forensic-overlay { position: absolute; inset: 0; pointer-events: none; box-shadow: inset 0 0 40px rgba(0,0,0,0.5); }
+        .loading-shimmer { position: absolute; top:50%; left:50%; transform:translate(-50%,-50%); color: var(--text-muted); font-size: 0.9rem; }
+    </style>
+</head>
+
+<body>
+    <div class="app-layout">
+        <!-- ═══ SIDEBAR ═══ -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-brand">
+                <div class="brand-icon"><i data-lucide="shield-check" class="w-8 h-8 text-[#eab308]"></i></div>
+                <div class="brand-text"><span class="brand-name">Risk Guard</span><span class="brand-sub">Secure Forensic Ledger</span></div>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="/dashboard" class="nav-item"><span class="nav-item-icon"><i data-lucide="layout-dashboard"></i></span><span>Dashboard</span></a>
+                <a href="/dashboard" class="nav-item active"><span class="nav-item-icon"><i data-lucide="file-search"></i></span><span>Evidence Vault</span></a>
+                <a href="/dashboard" class="nav-item"><span class="nav-item-icon"><i data-lucide="image"></i></span><span>Image Reports</span></a>
+                <a href="/dashboard" class="nav-item"><span class="nav-item-icon"><i data-lucide="mic"></i></span><span>Audio Reports</span></a>
+                <a href="/dashboard" class="nav-item"><span class="nav-item-icon"><i data-lucide="clapperboard"></i></span><span>Video Reports</span></a>
+                <a href="/dashboard" class="nav-item"><span class="nav-item-icon"><i data-lucide="file-text"></i></span><span>Text Reports</span></a>
+                <a href="/dashboard" class="nav-item"><span class="nav-item-icon"><i data-lucide="archive"></i></span><span>Archive / Trash</span></a>
+                <a href="/dashboard" class="nav-item"><span class="nav-item-icon"><i data-lucide="user-cog"></i></span><span id="sidebarUser">Officer Profile</span></a>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="/logout" class="nav-item nav-logout" onclick="sessionStorage.removeItem('cybercrime_user')"><span class="nav-item-icon"><i data-lucide="log-out"></i></span><span style="font-weight: 700;">Secure Logout</span></a>
+            </div>
+        </aside>
+
+        <!-- ═══ MAIN CONTENT ═══ -->
+        <main class="main-content">
+            <div class="detail-header">
+                <a href="/dashboard#evidence" class="detail-back">← Back to Records</a>
+                <div style="display:flex; align-items:center; gap:12px;">
+                    <h1 id="detailIdText" style="font-size:1.5rem; font-weight:800;">Evidence #...</h1>
+                    <span id="detailStatusBadge" class="badge">Checking...</span>
+                </div>
+            </div>
+
+            <!-- Visual Evidence Card -->
+            <div class="visual-preview-card animate-in">
+                <h3 class="card-title" style="margin-bottom:20px; text-align:left;"><span>📸</span> Dynamic Forensic Evidence</h3>
+                <div class="forensic-image-container" id="mediaContainer">
+                    <div class="loading-shimmer" id="imageLoading">⏳ Fetching from Federated IPFS Network...</div>
+                    <div id="mediaPlaybackContent" style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+                        <img id="forensicImage" src="" alt="Forensic Evidence" class="forensic-image">
+                    </div>
+                    <div class="forensic-overlay"></div>
+                </div>
+                <div style="display:flex; justify-content: space-between; align-items: center; margin-top:12px;">
+                    <p id="imageMetaText" style="font-size:0.8rem; color:var(--text-muted);">
+                        SHA-256 Verified Capture · ID: ...
+                    </p>
+                    <a id="downloadOriginalBtn" href="#" target="_blank" class="badge" style="background: rgba(234, 179, 8, 0.1); color: #eab308; border: 1px solid rgba(234, 179, 8, 0.3); text-decoration: none; cursor: pointer;">
+                        📥 Download Original
+                    </a>
+                </div>
+            </div>
+
+            <div class="detail-grid">
+                <!-- Metadata Card -->
+                <div class="detail-card animate-in">
+                    <h3 class="card-title"><span>📋</span> Metadata & Forensic Info</h3>
+                    <div class="detail-rows" id="metadataRows">
+                        <div class="detail-row"><span class="detail-label">Loading...</span></div>
+                    </div>
+                </div>
+
+                <!-- Integrity Card -->
+                <div class="detail-card animate-in">
+                    <h3 class="card-title"><span>🔐</span> Blockchain Integrity Chain</h3>
+                    <div class="detail-rows" id="integrityRows">
+                        <div class="detail-row"><span class="detail-label">Loading Layer...</span></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const BACKEND_URL = 'http://127.0.0.1:8000';
+        
+        async function loadEvidenceDetail() {
+            // Extract ID from path: /evidence/123 -> 123
+            const pathParts = window.location.pathname.split('/');
+            const id = pathParts[pathParts.length - 1];
+            if (!id || isNaN(id)) { window.location.href = '/dashboard'; return; }
+
+            try {
+                const resp = await fetch(`${BACKEND_URL}/api/v1/blockchain/report/${id}`);
+                const data = await resp.json();
+                const e = data.evidence;
+
+                // Update Header
+                document.getElementById('detailIdText').textContent = `Evidence #${e.id}`;
+                const statusBadge = document.getElementById('detailStatusBadge');
+                statusBadge.textContent = e.anchored ? '✅ VERIFIED ON-CHAIN' : '⏳ PENDING ANCHOR';
+                statusBadge.className = `badge ${e.anchored ? 'badge-verified' : 'badge-pending'}`;
+
+                // Update Media Content
+                const contentArea = document.getElementById('mediaPlaybackContent');
+                const loader = document.getElementById('imageLoading');
+                const mediaUrl = data.ipfs_url || (data.local_url ? `${BACKEND_URL}${data.local_url}` : '');
+                const filename = e.filename.toLowerCase();
+                
+                document.getElementById('downloadOriginalBtn').href = mediaUrl;
+
+                if (filename.endsWith('.mp3') || filename.endsWith('.wav') || filename.endsWith('.m4a')) {
+                    loader.style.display = 'none';
+                    contentArea.innerHTML = `<audio controls style="width:80%; filter: drop-shadow(0 0 10px rgba(234,179,8,0.2));"><source src="${mediaUrl}"></audio>`;
+                } else if (filename.endsWith('.mp4') || filename.endsWith('.mov') || filename.endsWith('.avi')) {
+                    loader.style.display = 'none';
+                    contentArea.innerHTML = `<video controls style="max-width:100%; max-height:100%; border-radius:8px;"><source src="${mediaUrl}"></video>`;
+                } else if (filename.endsWith('.txt') || e.threat_type.toLowerCase().includes('text')) {
+                    loader.style.display = 'none';
+                    contentArea.innerHTML = `<iframe src="${mediaUrl}" style="width:100%; height:100%; border:none; background:#fff; border-radius:8px;"></iframe>`;
+                } else {
+                    const img = document.getElementById('forensicImage');
+                    img.onload = () => { img.classList.add('loaded'); loader.style.display = 'none'; };
+                    img.onerror = () => { loader.textContent = '❌ Media not found'; };
+                    img.src = mediaUrl || '../templates/scam_evidence.png';
+                }
+
+                document.getElementById('imageMetaText').textContent = `SHA-256 Verified Capture · File: ${e.filename}`;
+
+                // Update Metadata
+                const reportDate = new Date(e.timestamp);
+                const dateString = reportDate.toLocaleDateString('en-US', { day: '2-digit', month: 'short', year: 'numeric' });
+                const timeString = reportDate.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
+
+                document.getElementById('metadataRows').innerHTML = `
+                    <div class="detail-row"><span class="detail-label">Report Date</span><span class="detail-value" style="font-weight:700; color:var(--primary);">${dateString}</span></div>
+                    <div class="detail-row"><span class="detail-label">Report Time</span><span class="detail-value" style="font-weight:700; color:var(--primary);">${timeString}</span></div>
+                    <div class="detail-row"><span class="detail-label">Threat Result</span><span class="badge badge-danger">${e.ai_result}</span></div>
+                    <div class="detail-row"><span class="detail-label">Confidence</span><span class="detail-value">${Math.round(e.confidence*100)}%</span></div>
+                    <div class="detail-row"><span class="detail-label">Category</span><span class="detail-value">${e.threat_type}</span></div>
+                    <div class="detail-row"><span class="detail-label">App User URL</span><span class="detail-value" style="word-break: break-all;">${e.profile_url || 'N/A'}</span></div>
+                    <div class="detail-row"><span class="detail-label">Description</span><span class="detail-value" style="white-space: pre-wrap;">${e.description || 'No description provided'}</span></div>
+                    <div class="detail-row"><span class="detail-label">IPFS CID</span><span class="detail-value mono" style="font-size:0.65rem;">${e.ipfs_cid}</span></div>
+                `;
+
+                // Update Integrity
+                document.getElementById('integrityRows').innerHTML = `
+                    <div class="detail-row"><span class="detail-label">File Hash</span><span class="detail-value mono hash-value" style="font-size:0.65rem;">${e.file_hash}</span></div>
+                    <div class="detail-row"><span class="detail-label">Chain Status</span><span class="detail-value">${e.anchored ? '✅ Secured' : '⏳ Pending'}</span></div>
+                    ${e.tx_hash ? `<div class="detail-row"><span class="detail-label">Transaction</span><span class="detail-value"><a href="${data.explorer_url}" target="_blank" class="link-chain">0x${e.tx_hash.substring(0,16)}...</a></span></div>` : ''}
+                `;
+
+            } catch (err) {
+                console.error('Error loading evidence:', err);
+                document.getElementById('detailIdText').textContent = 'Error Loading Evidence';
+            }
+        }
+
+        (function () {
+            const user = sessionStorage.getItem('cybercrime_user');
+            if (!user) { window.location.href = '/login'; return; }
+            loadEvidenceDetail();
+        })();
+    </script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

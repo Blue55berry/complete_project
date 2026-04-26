@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>RiskGuard Architecture</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1400px; height: 900px;
+    background: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 18px 24px;
+  }
+  h1 {
+    text-align: center; font-size: 22px; color: #1a1a2e;
+    margin-bottom: 14px; letter-spacing: 0.5px;
+    border-bottom: 2px solid #1a1a2e; padding-bottom: 6px;
+  }
+  .row { display: flex; gap: 14px; margin-bottom: 12px; justify-content: center; }
+  .box {
+    border-radius: 10px; padding: 0; overflow: hidden;
+    border: 2px solid; display: flex; flex-direction: column;
+  }
+  .box-header {
+    padding: 6px 14px; font-weight: bold; font-size: 13px;
+    color: #fff; text-align: center; letter-spacing: 0.3px;
+  }
+  .box-body {
+    padding: 6px 12px 8px; font-size: 11.5px; color: #333;
+    flex: 1;
+  }
+  .box-body ul { list-style: none; padding: 0; }
+  .box-body li {
+    padding: 1.5px 0; padding-left: 14px; position: relative;
+    line-height: 1.4;
+  }
+  .box-body li::before {
+    content: '●'; position: absolute; left: 0; top: 1px;
+    font-size: 7px; color: #666;
+  }
+  .box-body .sub { padding-left: 28px; font-size: 10.5px; color: #555; }
+  .box-body .sub::before { content: '○'; font-size: 6px; color: #999; }
+
+  /* Colors */
+  .flutter { border-color: #1565C0; width: 320px; }
+  .flutter .box-header { background: linear-gradient(135deg, #1976D2, #1565C0); }
+  .flutter .box-body { background: #e3f2fd; }
+
+  .overlay { border-color: #2E7D32; width: 280px; }
+  .overlay .box-header { background: linear-gradient(135deg, #43A047, #2E7D32); }
+  .overlay .box-body { background: #e8f5e9; }
+
+  .local { border-color: #558B2F; width: 310px; }
+  .local .box-header { background: linear-gradient(135deg, #7CB342, #558B2F); }
+  .local .box-body { background: #f1f8e9; }
+
+  .backend { border-color: #E65100; width: 290px; }
+  .backend .box-header { background: linear-gradient(135deg, #FB8C00, #E65100); }
+  .backend .box-body { background: #fff3e0; }
+
+  .cloud { border-color: #6A1B9A; width: 280px; }
+  .cloud .box-header { background: linear-gradient(135deg, #AB47BC, #6A1B9A); }
+  .cloud .box-body { background: #f3e5f5; }
+
+  .blockchain { border-color: #00695C; width: 320px; }
+  .blockchain .box-header { background: linear-gradient(135deg, #26A69A, #00695C); }
+  .blockchain .box-body { background: #e0f2f1; }
+
+  .dashboard { border-color: #AD1457; width: 310px; }
+  .dashboard .box-header { background: linear-gradient(135deg, #EC407A, #AD1457); }
+  .dashboard .box-body { background: #fce4ec; }
+
+  /* Arrows using SVG overlay */
+  .diagram { position: relative; }
+  svg.arrows {
+    position: absolute; top: 0; left: 0;
+    width: 1400px; height: 900px;
+    pointer-events: none; z-index: 10;
+  }
+  svg.arrows line { stroke-width: 2; }
+  svg.arrows text {
+    font-family: 'Times New Roman', serif;
+    font-size: 11px; font-style: italic;
+  }
+  marker polygon { stroke: none; }
+
+  .tag {
+    display: inline-block; font-size: 9px; padding: 1px 6px;
+    border-radius: 3px; margin-left: 4px; font-weight: bold;
+    vertical-align: middle;
+  }
+  .tag-green { background: #c8e6c9; color: #2E7D32; }
+  .tag-purple { background: #e1bee7; color: #6A1B9A; }
+  .tag-note { font-size: 10px; color: #888; font-style: italic; margin-top: 3px; }
+
+  .legend {
+    position: absolute; bottom: 14px; right: 24px;
+    border: 1.5px solid #ccc; border-radius: 8px;
+    padding: 8px 14px; background: #fafafa; font-size: 10.5px;
+  }
+  .legend-title { font-weight: bold; font-size: 12px; margin-bottom: 4px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; margin: 3px 0; }
+  .legend-color {
+    width: 14px; height: 14px; border-radius: 3px; border: 1px solid rgba(0,0,0,0.2);
+    flex-shrink: 0;
+  }
+</style>
+</head>
+<body>
+<div class="diagram">
+
+<h1>Figure 5.1 &mdash; RiskGuard High-Level System Architecture</h1>
+
+<!-- ROW 1: Flutter App + Overlay -->
+<div class="row">
+  <div class="box flutter">
+    <div class="box-header">Flutter Mobile Application</div>
+    <div class="box-body">
+      <ul>
+        <li>Dashboard &amp; Navigation</li>
+        <li>Image Analysis (6-Signal Ensemble)</li>
+        <li>Voice Analysis (6-Signal Hybrid)</li>
+        <li>Text Verification (4-Signal Ensemble)</li>
+        <li>Video Analysis (2-Signal Temporal)</li>
+        <li>Evidence Filing &amp; Blockchain</li>
+        <li>Permission Onboarding Flow</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="box overlay">
+    <div class="box-header">Real-Time Protection Overlay</div>
+    <div class="box-body">
+      <ul>
+        <li>Android Accessibility Service</li>
+        <li>System Overlay (2300+ lines)</li>
+        <li>Monitoring Bubble UI</li>
+        <li>Verdict Card Display</li>
+        <li>Call Monitoring Chip</li>
+        <li>URL &amp; Media Capture</li>
+        <li>Whitelisted App Detection</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;justify-content:center;width:200px;">
+    <div style="background:#e8eaf6;border:1.5px solid #5C6BC0;border-radius:8px;padding:6px 10px;text-align:center;">
+      <div style="font-weight:bold;font-size:11px;color:#283593;">Platform Channels</div>
+      <div style="font-size:10px;color:#5C6BC0;">Kotlin ↔ Flutter Bridge</div>
+      <div style="font-size:10px;color:#5C6BC0;">SharedPreferences</div>
+      <div style="font-size:10px;color:#5C6BC0;">Method Channels</div>
+    </div>
+  </div>
+</div>
+
+<!-- ARROW LABELS ROW -->
+<div style="display:flex;justify-content:space-around;margin:-4px 0 2px;padding:0 80px;">
+  <div style="text-align:center;">
+    <div style="font-size:18px;color:#558B2F;">▼</div>
+    <div style="font-size:10px;color:#558B2F;font-style:italic;">Local Signal Processing</div>
+  </div>
+  <div style="text-align:center;">
+    <div style="font-size:18px;color:#E65100;">▼</div>
+    <div style="font-size:10px;color:#E65100;font-style:italic;">HTTPS REST API</div>
+  </div>
+  <div style="text-align:center;">
+    <div style="font-size:18px;color:#6A1B9A;">▼</div>
+    <div style="font-size:10px;color:#6A1B9A;font-style:italic;">Cloud Inference (Optional)</div>
+  </div>
+</div>
+
+<!-- ROW 2: Local + Backend + Cloud -->
+<div class="row">
+  <div class="box local">
+    <div class="box-header">Local Edge Processing (CPU) <span class="tag tag-green">NO CLOUD</span></div>
+    <div class="box-body">
+      <ul>
+        <li>NPR — Noise Print Residual</li>
+        <li>DCT — Spectral Fingerprinting</li>
+        <li>Haar Wavelet Decomposition</li>
+        <li>Perceptual Hashing (pHash)</li>
+        <li>LFCC — Cepstral Coefficients</li>
+        <li>CQT — Phase Coherence</li>
+        <li>Modulation Spectrum Analysis</li>
+        <li>Pitch/F0 Contour Tracking</li>
+        <li>Statistical Amplitude Moments</li>
+        <li>Local Text Statistics &amp; Entropy</li>
+        <li>URL Heuristic Screening</li>
+      </ul>
+      <div class="tag-note">Works fully offline on commodity hardware</div>
+    </div>
+  </div>
+
+  <div class="box backend">
+    <div class="box-header">FastAPI Backend Server</div>
+    <div class="box-body">
+      <ul>
+        <li>Async REST API (Python 3.11+)</li>
+        <li>Multi-Modal Detection Engine</li>
+        <li>Evidence Manager</li>
+        <li>SSE Real-Time Event Stream</li>
+        <li>URL Verification (URLhaus)</li>
+        <li>Risk Scoring Engine</li>
+        <li>HF Model Keep-Alive Pinger</li>
+        <li>Media Cleanup Scheduler</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="box cloud">
+    <div class="box-header">Cloud AI Services <span class="tag tag-purple">OPTIONAL</span></div>
+    <div class="box-body">
+      <ul>
+        <li><b>HuggingFace Inference API:</b></li>
+        <li class="sub">DeBERTa (Text Detection)</li>
+        <li class="sub">RoBERTa (Text Detection)</li>
+        <li class="sub">AI Image Detector Models</li>
+        <li><b>Google Colab + ONNX:</b></li>
+        <li class="sub">wav2vec2 (ASVspoof2019)</li>
+        <li class="sub">CNN Image Classifier</li>
+        <li style="margin-top:4px;color:#6A1B9A;font-weight:bold;">Fallback: 100% Local CPU</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ARROW LABELS ROW 2 -->
+<div style="display:flex;justify-content:space-around;margin:-4px 0 2px;padding:0 120px;">
+  <div style="text-align:center;">
+    <div style="font-size:18px;color:#00695C;">▼</div>
+    <div style="font-size:10px;color:#00695C;font-style:italic;">Evidence Pipeline (SHA-256 → IPFS → Merkle → Polygon)</div>
+  </div>
+  <div style="text-align:center;">
+    <div style="font-size:18px;color:#AD1457;">▼</div>
+    <div style="font-size:10px;color:#AD1457;font-style:italic;">SSE Live Stream</div>
+  </div>
+</div>
+
+<!-- ROW 3: Blockchain + Dashboard -->
+<div class="row">
+  <div class="box blockchain">
+    <div class="box-header">Blockchain &amp; Evidence Layer</div>
+    <div class="box-body">
+      <ul>
+        <li>SHA-256 Hash Fingerprinting</li>
+        <li>IPFS Decentralized Storage (Pinata)</li>
+        <li>Merkle Tree Batch Aggregation</li>
+        <li>Polygon Amoy Blockchain</li>
+        <li>EvidenceAnchor Smart Contract</li>
+        <li>SQLite Off-Chain Evidence DB</li>
+      </ul>
+      <div class="tag-note">99.7% gas cost reduction via Merkle batching</div>
+    </div>
+  </div>
+
+  <div class="box dashboard">
+    <div class="box-header">Cybercrime Investigation Dashboard</div>
+    <div class="box-body">
+      <ul>
+        <li>Live Evidence Table (SSE Updates)</li>
+        <li>Green Pulsing LIVE Badge</li>
+        <li>Toast Notifications + Sound Alerts</li>
+        <li>Full Evidence Detail View</li>
+        <li>One-Click Batch Anchoring</li>
+        <li>Direct PolygonScan Links</li>
+        <li>Session-Based Authentication</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- LEGEND -->
+<div class="legend">
+  <div class="legend-title">Legend</div>
+  <div class="legend-item"><div class="legend-color" style="background:#7CB342;"></div> Local Processing (No Cloud Required)</div>
+  <div class="legend-item"><div class="legend-color" style="background:#AB47BC;"></div> Cloud-Enhanced (Optional)</div>
+  <div class="legend-item"><div class="legend-color" style="background:#FB8C00;"></div> Backend Server</div>
+  <div class="legend-item"><div class="legend-color" style="background:#1976D2;"></div> Mobile Application</div>
+  <div class="legend-item"><div class="legend-color" style="background:#26A69A;"></div> Blockchain &amp; Evidence</div>
+  <div class="legend-item"><div class="legend-color" style="background:#EC407A;"></div> Investigation Dashboard</div>
+</div>
+
+</div>
+</body>
+</html>

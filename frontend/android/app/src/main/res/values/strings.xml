@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_label">RiskGuard Proactive Shield</string>
+    <string name="accessibility_service_description">Monitors app launches and URLs to protect you from malicious links and unauthorized apps in real-time.</string>
+</resources>

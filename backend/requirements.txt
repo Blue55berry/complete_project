@@ -1,0 +1,33 @@
+# RiskGuard v3 — Python dependencies
+# pip install -r requirements.txt
+
+# ── API ───────────────────────────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+pydantic>=2.0.0
+
+# ── HTTP client ───────────────────────────────────────────────────────────────
+httpx>=0.27.0
+
+# ── Environment ───────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── ML / Data ─────────────────────────────────────────────────────────────────
+numpy>=1.26.0
+scipy>=1.13.0          # audio loading (wavfile) + signal processing
+Pillow>=10.3.0         # image processing
+
+# ── Audio Processing ──────────────────────────────────────────────────────────
+librosa>=0.10.1        # MFCC, pitch tracking, audio tools
+# webrtcvad>=2.0.10      # High-performance Voice Activity Detection
+PyWavelets>=1.4.1      # CQT / Wavelet phase analysis
+
+# ── Blockchain / Web3 ─────────────────────────────────────────────────────────
+web3>=7.0.0                # Polygon smart contract interaction
+
+# ── Optional but recommended ──────────────────────────────────────────────────
+# Install for faster/better results:
+opencv-python-headless>=4.9.0    # DCT (image) + optical flow (video)
+moviepy>=2.0.0                  # Audio extraction from video
+pydub>=0.25.1                    # Audio manipulation
